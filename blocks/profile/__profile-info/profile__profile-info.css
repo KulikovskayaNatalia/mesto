@@ -1,0 +1,7 @@
+.profile__profile-info {
+    display: grid;
+}
+
+@media (max-width: 1024px) {}
+@media (max-width: 768px) {}
+@media (max-width: 320px) {}
