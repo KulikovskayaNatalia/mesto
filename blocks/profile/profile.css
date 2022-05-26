@@ -3,6 +3,8 @@
     margin: 58px auto 0;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+   
 }
 
 @media (max-width: 1024px) {}

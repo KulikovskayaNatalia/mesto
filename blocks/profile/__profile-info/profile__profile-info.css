@@ -1,5 +1,6 @@
 .profile__profile-info {
-    display: grid;
+   display: flex;
+   justify-content: flex-start;
 }
 
 @media (max-width: 1024px) {}

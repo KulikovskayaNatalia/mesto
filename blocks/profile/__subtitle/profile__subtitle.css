@@ -3,6 +3,10 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
+    grid-column: 1/3;
+    grid-row: 2/3;
+    margin: 0;
+    padding: 0;S
 }
 
 @media (max-width: 1024px) {}
