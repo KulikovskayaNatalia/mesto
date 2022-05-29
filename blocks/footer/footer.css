@@ -1,9 +1,19 @@
 .footer {
     max-width: 880px;
     margin: 71px auto 0;
-    padding: 0 0 58px 0;
+    padding: 0 0 60px 0;
 }
 
-@media (max-width: 1024px) {}
+@media (max-width: 880px) {
+    .footer {
+        padding: 0 0 36px 19px;
+    }
+}
+
 @media (max-width: 768px) {}
-@media (max-width: 320px) {}
+
+@media (max-width: 320px) {
+    .footer {
+        padding: 0 0 36px 19px;
+    }
+}
