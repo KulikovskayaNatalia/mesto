@@ -1,7 +1,28 @@
 .profile__edit-button {
-    max-width: 24px;
+    width: 24px;
+    height: 24px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    align-self: center;
+
+    
+    box-sizing: border-box;
+    
+    border: 1px solid #fff;
+    background-image: url(../../../images/pen.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+   
+    background-color: #000;
 }
 
-@media (max-width: 1024px) {}
+@media (max-width: 1024px) {
+    .profile__edit-button {
+        width: 18px;
+        height: 18px;
+    }
+}
+
 @media (max-width: 768px) {}
+
 @media (max-width: 320px) {}
