@@ -16,11 +16,7 @@
         max-width: 282px;
         font-size: 14px;
         line-height: 17px;
-        align-self: center;
-        text-align: center;
+        margin: 0 auto;
+        padding-right: 30px;
     }
 }
-
-@media (max-width: 768px) {}
-
-@media (max-width: 320px) {}

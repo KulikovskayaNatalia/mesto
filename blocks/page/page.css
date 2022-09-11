@@ -1,7 +1,6 @@
 .page {
   color: #fff;
   min-width: 320px;
-  /* max-width: 1280px; */
   margin: 0 auto;
   background-color: #000000;
   font-family: 'Inter', 'Arial', 'Helvetica';
@@ -11,11 +10,4 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
-  
 }
-
-@media (max-width: 1024px) {}
-
-@media (max-width: 768px) {}
-
-@media (max-width: 320px) {}

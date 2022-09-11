@@ -5,8 +5,13 @@
     line-height: 22px;
     color: #545454;
     letter-spacing: 0.4px;
+    margin: 0;
 }
 
-@media (max-width: 1024px) {}
-@media (max-width: 768px) {}
-@media (max-width: 320px) {}
+@media (max-width: 1024px) {
+    .footer__copyright {
+        font-size: 14px;
+        line-height: 17px;
+        width: 282px;
+    }
+}

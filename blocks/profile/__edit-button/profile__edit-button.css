@@ -4,16 +4,17 @@
     grid-column: 2/3;
     grid-row: 1/2;
     align-self: center;
-
-    
     box-sizing: border-box;
-    
     border: 1px solid #fff;
     background-image: url(../../../images/pen.jpg);
     background-repeat: no-repeat;
     background-position: center;
-   
     background-color: #000;
+}
+
+.profile__edit-button:hover {
+    opacity: .6;
+    cursor: pointer;
 }
 
 @media (max-width: 1024px) {
@@ -22,7 +23,3 @@
         height: 18px;
     }
 }
-
-@media (max-width: 768px) {}
-
-@media (max-width: 320px) {}
