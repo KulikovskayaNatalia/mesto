@@ -8,8 +8,8 @@
     margin: 0;
     padding: 0;
     align-self: end;
-    letter-spacing: 2.2px;
-}
+    letter-spacing: 0.2px;
+    }
 
 @media (max-width: 1024px) {
     .profile__title {
@@ -17,6 +17,6 @@
         font-size: 27px;
         line-height: 33px;
         margin: 0 0 0 3px;
-        letter-spacing: 1.2px;
+        letter-spacing: 0.2px;
     }
 }
