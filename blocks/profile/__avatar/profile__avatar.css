@@ -2,13 +2,11 @@
     border-radius: 50%;
     max-height: 127.5px;
     max-width: 119.5px;
+    object-fit: cover;
 }
 
 @media (max-width: 1024px) {
     .profile__avatar {
-        border-radius: 50%;
-        max-height: 127.5px;
-        max-width: 119.5px;
-        margin: 16px 0 0 0;
+         margin: 16px 0 0 0;
     }
 }

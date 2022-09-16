@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Место</title>
   <link rel="stylesheet" href="./pages/index.css">
-  
+
 </head>
 
 <body class="body">
@@ -26,60 +26,57 @@
 
             <h1 class="profile__title">Жак-Ив Кусто</h1>
             <p class="profile__subtitle">Исследователь океана</p>
-            <button class="profile__edit-button"></button>
+            <button class="profile__edit-button" type="button" aria-label="редактировать"></button>
           </div>
         </div>
-        <button class="profile__add-button"></button>
+        <button class="profile__add-button" type="button" aria-label="добавить"></button>
       </section>
 
       <section class="elements">
-        <div class="element">
-          <img src="./images/buratia.jpg" class="element__image" alt="Бурятия">
-          <div class="element__group">
-            <h2 class="element__title">Бурятия</h2>
-            <button class="element__like" type="button"></button>
-          </div>
-        </div>
-
-        <div class="element">
-          <img src="./images/crimea.jpg" class="element__image" alt="Новый свет">
-          <div class="element__group">
-            <h2 class="element__title">Новый свет</h2>
-            <button class="element__like" type="button"></button>
-          </div>
-        </div>
-
-        <div class="element">
-          <img src="./images/elets.jpg" class="element__image" alt="Воргольские скалы">
-          <div class="element__group">
-            <h2 class="element__title">Воргольские скалы</h2>
-            <button class="element__like" type="button"></button>
-          </div>
-        </div>
-
-        <div class="element">
-          <img src="./images/vottovaara.jpg" class="element__image" alt="Воттоваара">
-          <div class="element__group">
-            <h2 class="element__title">Воттоваара</h2>
-            <button class="element__like" type="button"></button>
-          </div>
-        </div>
-
-        <div class="element">
-          <img src="./images/archyz.jpg" class="element__image" alt="Архыз">
-          <div class="element__group">
-            <h2 class="element__title">Архыз</h2>
-            <button class="element__like" type="button"></button>
-          </div>
-        </div>
-
-        <div class="element">
-          <img src="./images/baikal.jpg" class="element__image" alt="Байкал>">
-          <div class="element__group">
-            <h2 class="element__title">Байкал</h2>
-            <button class="element__like" type="button"></button>
-          </div>
-        </div>
+        <ul class="elements">
+          <li class="element">
+            <img src="./images/buratia.jpg" class="element__image" alt="Бурятия">
+            <div class="element__group">
+              <h2 class="element__title">Бурятия</h2>
+              <button class="element__like" type="button" type="button" aria-label="понравилось"></button>
+            </div>
+          </li>
+          <li class="element">
+            <img src="./images/crimea.jpg" class="element__image" alt="Новый свет">
+            <div class="element__group">
+              <h2 class="element__title">Новый свет</h2>
+              <button class="element__like" type="button" type="button" aria-label="понравилось"></button>
+            </div>
+          </li>
+          <li class="element">
+            <img src="./images/elets.jpg" class="element__image" alt="Воргольские скалы">
+            <div class="element__group">
+              <h2 class="element__title">Воргольские скалы</h2>
+              <button class="element__like" type="button" type="button" aria-label="понравилось"></button>
+            </div>
+          </li>
+          <li class="element">
+            <img src="./images/vottovaara.jpg" class="element__image" alt="Воттоваара">
+            <div class="element__group">
+              <h2 class="element__title">Воттоваара</h2>
+              <button class="element__like" type="button" type="button" aria-label="понравилось"></button>
+            </div>
+          </li>
+          <li class="element">
+            <img src="./images/archyz.jpg" class="element__image" alt="Архыз">
+            <div class="element__group">
+              <h2 class="element__title">Архыз</h2>
+              <button class="element__like" type="button" type="button" aria-label="понравилось"></button>
+            </div>
+          </li>
+          <li class="element">
+            <img src="./images/baikal.jpg" class="element__image" alt="Байкал>">
+            <div class="element__group">
+              <h2 class="element__title">Байкал</h2>
+              <button class="element__like" type="button" type="button" aria-label="понравилось"></button>
+            </div>
+          </li>
+        </ul>
       </section>
     </main>
 
@@ -89,17 +86,17 @@
 
     <section class="popup">
       <div class="popup__container">
-        <div class="popup__close-button"></div>
+        <button class="popup__close-button" type="button" aria-label="закрыть"></button>
         <h3 class="popup__title">Редактировать профиль</h3>
-        <form  class="popup__form">
+        <form class="popup__form" name="popupName">
           <input type="text" class="popup__input popup__input_name" value="Жак-Ив Кусто" id="inputName">
           <input type="text" class="popup__input popup__input_hobbie" value="Исследователь океана" id="inputHobbie">
-          <button class="popup__save-button">Сохранить</button>
+          <button class="popup__save-button" type="submit" aria-label="сохранить"> Сохранить</button>
         </form>
       </div>
     </section>
   </div>
-  <script src="./scripts/index.js"></script>
+  <script defer src="./scripts/index.js"></script>
 </body>
 
 </html>
